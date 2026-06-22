@@ -1,0 +1,36 @@
+PROJECT NAME:
+Predictive Forecasting of Care Load & Placement Demand
+
+SUBMITTED BY:
+Aravinth A
+
+PROJECT DESCRIPTION:
+This project focuses on forecasting future HHS care load and discharge demand using historical UAC Program data. Multiple forecasting models were evaluated to support proactive capacity planning and resource allocation.
+
+FILES INCLUDED:
+1. Executive_Summary.pdf
+   - Business-focused summary of project findings and recommendations.
+
+2. Cleaned_UAC_Data.csv
+   - Preprocessed dataset used for analysis and forecasting.
+
+3. Forecasting_Model.ipynb
+   - Python notebook containing data preprocessing, feature engineering, model training, forecasting, and evaluation.
+
+MODELS USED:
+- Naive Forecasting
+- SARIMA
+- Exponential Smoothing
+- Random Forest Regressor
+- Gradient Boosting Regressor
+
+BEST MODEL:
+Naive Forecasting
+
+PERFORMANCE:
+MAE  : 6.62
+RMSE : 8.24
+MAPE : 0.29%
+
+KEY FINDING:
+Net Pressure (Transfers into HHS Care - Discharges from HHS Care) was identified as an important early warning indicator for future capacity stress.
